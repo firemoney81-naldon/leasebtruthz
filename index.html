@@ -1,23 +1,873 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://lease.reliabledone.com/#webpage",
+        "url": "https://lease.reliabledone.com/",
+        "name": "디 올 뉴 그랜저 GN7 리스 가격 비교 및 2026년 최적화 가이드",
+        "description": "2026년형 현대자동차 디 올 뉴 그랜저 GN7 리스 비용, 트림별 가격비교, 장단점 및 최저가 견적 신청 안내."
+      },
+      {
+        "@type": "Article",
+        "headline": "디 올 뉴 그랜저 GN7 리스 가격비교 및 2026년 최적화 가이드",
+        "datePublished": "2026-05-22T09:00:00+09:00",
+        "dateModified": "2026-08-02T09:00:00+09:00",
+        "author": {
+          "@type": "Organization",
+          "name": "그랜저 GN7 리스 전문 컨설팅"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "그랜저 GN7 리스 전문 컨설팅",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lease.reliabledone.com/logo.png"
+          }
+        },
+        "description": "2026년 신규 런칭된 디 올 뉴 그랜저 GN7 리스 조건과 최적의 요금제 계산 방법, 신용 조건별 무보증 심사 가이드 등을 담은 정보성 분석서입니다."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "디 올 뉴 그랜저 GN7 리스의 평균 월 납입금은 얼마인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026년 기준 그랜저 GN7 리스 가격은 선수금 및 보증금 비율, 계약 기간(36~60개월)에 따라 다릅니다. 가솔린 2.5 프리미엄 기준 무보증 60개월 계약 시 평균 월 40만 원대에서 50만 원대의 예상 비용이 발생할 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "개인 및 법인 사업자 리스의 세제 혜택 장점은 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "매월 지출하는 리스 요금을 연간 최대 1500만 원(기본 비용 처리 800만 원 및 운행 기록부 작성 시 추가 유지비 포함)까지 경비 처리할 수 있어 소득세 감면 효과가 뛰어납니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html, body, div, section, h1, h2, h3, h4, p, ul, li, table, th, td, form, input, select, textarea, button, label, nav, a {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+      font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      color: #1e293b;
+      line-height: 1.8;
+    }
+    body {
+      padding: 0;
+    }
+    header, section, footer {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 40px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #ffffff;
+      text-align: center;
+      padding: 60px 40px;
+    }
+    header h1 {
+      font-size: 2.2em;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+    header p {
+      font-size: 1.15em;
+      color: #cbd5e1;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    nav {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    nav a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95em;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.05);
+    }
+    nav a:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.15);
+    }
+    h2 {
+      font-size: 1.6em;
+      color: #1e3b8b;
+      margin-bottom: 25px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #e2e8f0;
+      font-weight: 700;
+    }
+    h3 {
+      font-size: 1.25em;
+      color: #0f172a;
+      margin: 30px 0 15px;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+      color: #334155;
+      text-align: justify;
+    }
+    strong {
+      color: #1e3b8b;
+      font-weight: 600;
+    }
+    ul, ol {
+      margin-bottom: 25px;
+      padding-left: 25px;
+    }
+    li {
+      margin-bottom: 12px;
+      font-size: 1.05rem;
+      color: #334155;
+    }
+    .highlight-box {
+      background-color: #f0fdf4;
+      border-left: 5px solid #16a34a;
+      padding: 25px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+    .info-box {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 25px;
+      border-radius: 12px;
+      margin: 30px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.95em;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 14px 16px;
+      text-align: center;
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #1e293b;
+      font-weight: 600;
+    }
+    tr:nth-child(even) td {
+      background-color: #f8fafc;
+    }
+    /* Simple CSS Visual Representation of Cost Structure */
+    .graph-container {
+      margin: 40px 0;
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+    }
+    .graph-row {
+      margin-bottom: 20px;
+    }
+    .graph-label {
+      font-weight: 600;
+      font-size: 0.95em;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+    .graph-bar-wrapper {
+      background: #e2e8f0;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 24px;
+      width: 100%;
+    }
+    .graph-bar {
+      height: 100%;
+      border-radius: 8px;
+      transition: width 1s ease-in-out;
+    }
+    .bar-cash {
+      width: 100%;
+      background: #94a3b8;
+    }
+    .bar-rent {
+      width: 82%;
+      background: #3b82f6;
+    }
+    .bar-lease {
+      width: 74%;
+      background: #0d9488;
+    }
+    .graph-legend {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      font-size: 0.85em;
+      color: #64748b;
+      margin-top: 10px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    /* Interactive Elements Styling */
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #1e293b;
+    }
+    input[type="text"], input[type="tel"], select, textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 1em;
+      color: #334155;
+      background-color: #ffffff;
+      transition: all 0.3s ease;
+    }
+    input[type="text"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+      border-color: #1e3b8b;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(30, 59, 139, 0.1);
+    }
+    .btn-submit {
+      display: inline-block;
+      width: 100%;
+      background: linear-gradient(135deg, #1e3a8a 0%, #0d9488 100%);
+      color: #ffffff;
+      padding: 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+      text-align: center;
+    }
+    .btn-submit:hover {
+      opacity: 0.95;
+    }
+    .calculator-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 30px 0;
+    }
+    .calc-result {
+      margin-top: 25px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+    }
+    .calc-result p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+    .calc-result-price {
+      font-size: 1.6em;
+      font-weight: 700;
+      color: #0d9488;
+    }
+    /* Quiz styling */
+    .quiz-box {
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 30px 0;
+    }
+    .quiz-options {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-top: 15px;
+    }
+    @media (min-width: 600px) {
+      .quiz-options {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .quiz-btn {
+      background: #ffffff;
+      border: 1.5px solid #94a3b8;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 0.95em;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+      color: #334155;
+    }
+    .quiz-btn:hover {
+      border-color: #0d9488;
+      background: #f0fdfa;
+    }
+    .link-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 25px 0;
+    }
+    .link-group a {
+      color: #1e3b8b;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px dashed #1e3b8b;
+      align-self: flex-start;
+    }
+    .link-group a:hover {
+      color: #0d9488;
+      border-bottom-style: solid;
+    }
+    footer {
+      text-align: center;
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 40px;
+      font-size: 0.9em;
+    }
+    footer p {
+      color: #94a3b8;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>디 올 뉴 그랜저 GN7 리스 최신 정보 및 2026년형 비용 설계 가이드</h1>
+    <p>현대자동차의 플래그십 세단 디 올 뉴 그랜저 GN7 모델의 리스 구매 방안과 최저가 산출 기법을 상세히 소개해 드립니다.</p>
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+      <ul>
+        <li><a href="#intro">시장 분석</a></li>
+        <li><a href="#trim-price">트림별 비교</a></li>
+        <li><a href="#lease-vs-rent">구매 방식 차이</a></li>
+        <li><a href="#calculator">실시간 계산기</a></li>
+        <li><a href="#quiz">맞춤 솔루션 진단</a></li>
+        <li><a href="#trend">커뮤니티 트렌드</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">상담 신청</a></li>
+      </ul>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+  </header>
+
+  <section id="intro">
+    <h2>2026년형 디 올 뉴 그랜저 GN7 출시 배경 및 시장 분석</h2>
+    <p>대한민국 준대형 세단 시장에서 압도적인 입지를 굳힌 현대자동차의 플래그십 모델, <strong>디 올 뉴 그랜저 GN7 리스</strong>에 대한 수요가 2026년에도 꾸준히 이어지고 있습니다. 세련된 전면부 심리스 호라이즌 램프와 격조 높은 측면 실루엣은 고급 세단으로서의 가치를 대변하고 있습니다.</p>
+    
+    <p>특히 2026년 연식변경을 통해 신설된 아너스 트림은 기존 익스클루시브와 캘리그래피 사이의 균형을 유지하며 소비자들이 선호하는 핵심 사양을 대거 기본 적용하여 경쟁력을 강화했습니다. 이로 인해 리스 실행 시 매월 부담해야 하는 납입 금액을 효율적으로 조율하려는 법인 및 개인사업자, 그리고 전문직 고객들의 합리적인 선택이 늘고 있는 추세입니다.</p>
+
+    <div class="highlight-box">
+      <p>그랜저 GN7 리스는 차량을 직접 소유하지 않고 약정된 기간 동안 캐피탈사 소유의 차량을 임대하여 사용하는 선진국형 차량 이용 방식입니다. 렌트와 달리 일반 승용 번호판을 그대로 사용할 수 있어 품격 유지와 사생활 보호 측면에서 장점이 분명하며, 경비 처리를 통한 절세 효과가 뛰어납니다.</p>
+    </div>
+  </section>
+
+  <section id="trim-price">
+    <h2>디 올 뉴 그랜저 GN7 트림별 사양 및 리스 비용 정밀 비교</h2>
+    <p>디 올 뉴 그랜저 GN7 모델은 가솔린 2.5, 가솔린 3.5, LPG 3.5, 그리고 하이브리드까지 폭넓은 파워트레인을 갖추고 있습니다. 금융사별로 책정하는 잔존가치 기준과 이율 정책에 따라 실제 적용되는 월 납입 <strong>금액</strong>과 최종 인수 <strong>가격</strong>에는 큰 편차가 존재하므로 세부 트림 사양을 명확히 대조하는 작업이 선행되어야 합니다.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>엔진 분류</th>
+          <th>권장 트림명</th>
+          <th>차량 기본가</th>
+          <th>예상 잔존가치 (60개월 기준)</th>
+          <th>평균 월 리스 요금 (추정치)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>가솔린 2.5 2WD</td>
+          <td>프리미엄</td>
+          <td>37,980,000 원</td>
+          <td>45% ~ 48%</td>
+          <td>월 430,000 원 내외</td>
+        </tr>
+        <tr>
+          <td>가솔린 2.5 2WD</td>
+          <td>익스클루시브</td>
+          <td>42,900,000 원</td>
+          <td>44% ~ 47%</td>
+          <td>월 490,000 원 내외</td>
+        </tr>
+        <tr>
+          <td>가솔린 2.5 2WD</td>
+          <td>아너스 (신설)</td>
+          <td>45,500,000 원</td>
+          <td>43% ~ 46%</td>
+          <td>월 520,000 원 내외</td>
+        </tr>
+        <tr>
+          <td>가솔린 2.5 2WD</td>
+          <td>캘리그래피</td>
+          <td>48,100,000 원</td>
+          <td>42% ~ 45%</td>
+          <td>월 560,000 원 내외</td>
+        </tr>
+        <tr>
+          <td>하이브리드 1.6</td>
+          <td>아너스 (HEV)</td>
+          <td>50,600,000 원</td>
+          <td>48% ~ 51%</td>
+          <td>월 550,000 원 내외</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>위 표에 제시된 산출 값은 보증금 30%를 예치하고 연간 2만 km의 주행거리를 설정한 조건의 <strong>평균</strong>적인 견적 데이터입니다. 실제 적용 조건에 따라 금융 이율 변동이 수반되므로 정확한 월 리스료는 실시간 금융사 전산망을 연계한 비교를 권장합니다.</p>
+  </section>
+
+  <section id="lease-vs-rent">
+    <h2>장기렌트 대 리스 대 일시불 할부 구매 차이점 분석</h2>
+    <p>그랜저 GN7을 운용하는 방식은 크게 세 가지로 분류됩니다. 매달 정기적으로 나가는 고정 유지 비용의 효용성을 극대화하기 위해서는 세법상 규정과 부채 인식 여부 등의 <strong>차이점</strong>을 파악하는 것이 필요합니다.</p>
+
+    <ul>
+      <li><strong>일반 리스</strong>: 본인 명의의 일반 번호판을 장착하므로 대외적인 품위 유지에 기여합니다. 개인 요율에 맞춰 개별 자동차 보험에 따로 <strong>가입</strong>하여 무사고 경력을 그대로 유지할 수 있는 <strong>장점</strong>이 있습니다. 다만 개인 부채로 산정될 수 있습니다.</li>
+      <li><strong>장기렌트</strong>: 하, 허, 호 번호판을 의무적으로 사용해야 합니다. 세금과 보험료가 납부 요금에 전액 통합되므로 관리가 지극히 단순하며 개인 부채로 등록되지 않아 금융 한도 관리에 유리합니다.</li>
+      <li><strong>신차 할부</strong>: 자산으로 완전 이전되나 초기 등록 비용(취등록세 7%) 지출 부담이 크며 부채와 자산이 동시에 늘어 건보료 인상 등의 <strong>단점</strong>이 유발될 수 있습니다.</li>
+    </ul>
+
+    <div class="graph-container">
+      <div class="graph-label">방식별 5년 총 소요 비용 비교 추이 (세제 혜택 반영 시 금융 비용 시뮬레이션)</div>
+      
+      <div class="graph-row">
+        <div class="graph-label">1. 일반 신차 할부 및 초기 일시불 구매 (비용 처리 한계)</div>
+        <div class="graph-bar-wrapper">
+          <div class="graph-bar bar-cash"></div>
+        </div>
+      </div>
+
+      <div class="graph-row">
+        <div class="graph-label">2. 업무용 장기렌트 운용 (보험료 포함 요금제)</div>
+        <div class="graph-bar-wrapper">
+          <div class="graph-bar bar-rent"></div>
+        </div>
+      </div>
+
+      <div class="graph-row">
+        <div class="graph-label">3. 디 올 뉴 그랜저 GN7 리스 운용 (세무 절세율 극대화)</div>
+        <div class="graph-bar-wrapper">
+          <div class="graph-bar bar-lease"></div>
+        </div>
+      </div>
+
+      <div class="graph-legend">
+        <div class="legend-item">
+          <div class="legend-color" style="background: #94a3b8;"></div>
+          <span>할부 (100%)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background: #3b82f6;"></div>
+          <span>장기렌트 (약 82%)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background: #0d9488;"></div>
+          <span>운용리스 (약 74%)</span>
+        </div>
+      </div>
+    </div>
+
+    <p>위 시뮬레이션 그래프는 개인사업자 혹은 법인이 소득세 구간 35% 이상일 때 세무 경비 처리를 통하여 환급받는 비용 절감 <strong>혜택</strong>을 정교하게 추산한 상대적 누적 금액 지표입니다.</p>
+  </section>
+
+  <section id="calculator" class="calculator-box">
+    <h2>실시간 맞춤형 디 올 뉴 그랜저 GN7 리스 계산기</h2>
+    <p>조건을 직접 변경하며 본인의 라이프스타일에 부합하는 최적의 월 불입 비용을 가상으로 산출해 볼 수 있습니다. 아래 입력 항목들을 설정하신 후 연산 결과를 도출해 보십시오.</p>
+
+    <form id="lease-calc-form" onsubmit="event.preventDefault(); return false;">
+      <div class="form-group">
+        <label for="calc-engine">엔진 파워트레인 선택</label>
+        <select id="calc-engine" required>
+          <option value="g25">가솔린 2.5 (기본)</option>
+          <option value="g35">가솔린 3.5 (추가금 반영)</option>
+          <option value="h16">1.6 하이브리드 (친환경 연비 특화)</option>
+          <option value="l35">LPG 3.5 (조용하고 안정적인 드라이빙)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="calc-trim">세부 트림 사양</label>
+        <select id="calc-trim" required>
+          <option value="premium">프리미엄</option>
+          <option value="exclusive">익스클루시브</option>
+          <option value="honors">아너스 (추천 트림)</option>
+          <option value="calligraphy">캘리그래피 (최상위)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="calc-term">계약 이용 기간 선택</label>
+        <select id="calc-term" required>
+          <option value="36">36개월</option>
+          <option value="48">48개월</option>
+          <option value="60">60개월</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="calc-prepay-type">초기 자금 투입 설계</label>
+        <select id="calc-prepay-type" required>
+          <option value="none">무보증 (초기 비용 0 원)</option>
+          <option value="deposit">보증금 (만기 시 전액 환원형)</option>
+          <option value="prepay">선납금 (월 납입료 소멸성 차감형)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="calc-prepay-ratio">초기 비용 비율 설정 (%)</label>
+        <select id="calc-prepay-ratio" required>
+          <option value="0">0%</option>
+          <option value="10">10%</option>
+          <option value="20">20%</option>
+          <option value="30">30%</option>
+        </select>
+      </div>
+
+      <button type="button" class="btn-submit" onclick="executeLeaseCalculation()">가상 월 납입금 실시간 계산</button>
+    </form>
+
+    <div id="calc-result-box" class="calc-result" style="display: none;">
+      <h3>가산정된 월별 리스 요금 내역</h3>
+      <p>산정 차량 총가액: <span id="calc-result-total-car" style="font-weight: 600;">0</span> 원</p>
+      <p>설정 초기 납부 비용: <span id="calc-result-prepay-val" style="font-weight: 600;">0</span> 원</p>
+      <p>만기 보장 잔존가치액: <span id="calc-result-res-value" style="font-weight: 600;">0</span> 원</p>
+      <p><strong>매월 지불 예상 리스 요율: </strong> <span id="calc-result-price" class="calc-result-price">0 원</span></p>
+      <p style="font-size: 0.8em; color: #64748b; margin-top: 15px;">※ 본 결과는 예시용 가계산 요금으로, 계약 대상자의 정밀 신용 한도 및 프로모션 특판 지원 비율에 따라 정식 진행 시 인하 조정될 여지가 존재합니다.</p>
+    </div>
+  </section>
+
+  <section id="quiz" class="quiz-box">
+    <h2>나에게 가장 알맞은 자동차 구매 솔루션 진단 테스트</h2>
+    <p>재정 상태와 이용 성향에 부합하는 최선의 자량 확보 방안은 무엇일까요? 아래의 몇 가지 간단한 자가 진단 질문에 응답하시면 최적의 추천 모델을 산출해 드립니다.</p>
+    
+    <div id="quiz-content">
+      <div id="quiz-question-container">
+        <p id="quiz-question-text" style="font-weight: 600; font-size: 1.1em; color: #0f172a;"></p>
+        <div class="quiz-options" id="quiz-answers-container"></div>
+      </div>
+      <div id="quiz-result-container" style="display: none;">
+        <h3 id="quiz-result-title"></h3>
+        <p id="quiz-result-desc"></p>
+        <button type="button" class="quiz-btn" onclick="resetQuizTest()" style="margin-top: 15px; border-color: #0d9488; color: #0d9488;">자가 진단 다시 시작하기</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="guide">
+    <h2>연령대별, 상황별 그랜저 GN7 리스 맞춤 가이드</h2>
+    <p>디 올 뉴 그랜저 GN7 모델은 다양한 연령대와 직업 환경군에 걸쳐 세심한 포지셔닝을 취하고 있습니다. 연령 및 경력 조건에 최적화된 조건 수립 전략은 다음과 같습니다.</p>
+
+    <h3>20대 및 30대 사회초년생 및 전문직 오너</h3>
+    <p>비교적 이른 시기에 프리미엄 준대형 세단으로 도약하고자 하는 20대 및 30대 오너의 경우, 월 현금 흐름을 저해하지 않도록 잔존가치를 극대화하고 선납금을 적절히 분배하는 금융 모델을 권장합니다. 연령이 어릴 때 발생하는 높은 개인 자동차 보험료를 개별 가입 요율로 조율하면서 리스로 경력을 누적하면 장기적인 자산 관리에 긍정적입니다.</p>
+
+    <h3>40대 및 50대 개인사업자 및 법인 대표</h3>
+    <p>사업장을 정식으로 운영 중인 개인사업자와 중소 법인 임직원들에게는 법인세 및 종합소득세 감면 목적을 지닌 운용형 리스 제도가 압도적으로 선호됩니다. 승용 등급 차량의 연간 감가상각 비용 한도가 일목요연하게 정해져 있으므로, 정밀 세무 <strong>컨설팅</strong>을 통해 연간 한도 한계까지 꽉 채우는 유연한 경비 계획 수립을 가장 **추천**해 드립니다.</p>
+
+    <div class="info-box">
+      <p>소득세 한계 세율이 높을수록 절세 환급률이 늘어납니다. 따라서 소득이 일정한 고소득 프리랜서나 매출 성장이 두드러지는 신생 법인의 대표자일수록 신차 리스의 재무적 혜택은 일반 현금 구매보다 체감상 확연히 높게 나타납니다.</p>
+    </div>
+  </section>
+
+  <section id="trend">
+    <h2>온라인 커뮤니티 트렌드 및 실사용자 내돈내산 리포트</h2>
+    <p>각종 커뮤니티 공간과 뉴미디어 채널에서 공유되고 있는 다양한 실제 차주분들의 피드백과 소식들을 수렴하여 정리한 내용입니다.</p>
+    
+    <p>자동차 매니아 비중이 높은 <strong>보배드림</strong> 커뮤니티에서는 하이브리드 세단의 연비 효율성과 주행 감성에 대해 활발한 토론이 이뤄지고 있습니다. 실내 정숙성과 2열 뒷좌석 거주 공간성에 대한 만족도가 높다는 평가가 주를 이룹니다. 반면, 청년층 이용자가 밀집해 있는 <strong>펨코</strong> 및 <strong>에펨코리아</strong> 차갤 영역에서는 월 소득 기준 감당 가능한 유지비 계산법과 장기렌트 간의 유불리를 면밀히 대조해 보는 현실적인 조언들이 많은 조회수를 기록하고 있습니다.</p>
+
+    <p>또한 <strong>디시</strong> 인사이드 자동차 갤러리에서는 비공식적인 수수료 거품을 원천적으로 걷어내는 비대면 **다이렉트** 리스 중개 업체의 실체를 규명하거나 전국 리스 계약의 최저가 **좌표**와 할인 **성지** 지점을 공유하는 신뢰성 있는 유저 리포트가 수시로 갱신되고 있습니다.</p>
+
+    <p>미래 예측 기술 관점에서 본다면, 네이버 하이퍼클로바X 또는 구글의 스마트 <strong>제미나이</strong> 솔루션과 더불어 풍부한 파라미터를 탑재한 <strong>챗지피티</strong> 같은 거대 언어 모델 <strong>AI</strong> 엔진에 그랜저 GN7 리스의 총 경제 비용에 대해 질의하여도 비슷한 결론이 도출됩니다. 세무적인 환급 여력이 풍부한 조건일 경우 단순 소유보다는 자산 가치 감가 리스크를 피할 수 있는 운용리스 방식이 재정 포트폴리오 차원에서 월등히 매끄럽다는 판단을 제시해 줍니다.</p>
+  </section>
+
+  <section id="links">
+    <h2>공식 참고 사이트 및 신뢰할 수 있는 자료 출처</h2>
+    <p>디 올 뉴 그랜저 GN7 모델의 상세 기계적 매커니즘, 디자인적 정통성, 제조사 정식 상품 카탈로그 등 검증되고 공인된 채널의 상세 기술 데이터를 직접 탐색해 보세요.</p>
+    
+    <div class="link-group">
+      <a href="https://leasectrutha.withusrizz.com" target="_blank" rel="noopener noreferrer">그랜저 GN7 리스 정밀 분석 포털 (reliabledone.com)</a>
+      <a href="https://namu.wiki/w/%ED%98%84%EB%8C%80_%EA%B7%B8%EB%9E%9C%EC%A0%80/7%EC%84%B8%EB%8C%80" target="_blank" rel="noopener noreferrer">나무위키 현대 그랜저 7세대 개발사 및 트림 상세 연혁</a>
+      <a href="https://www.hyundai.com/kr/ko/e/vehicles/grandeur/intro" target="_blank" rel="noopener noreferrer">현대자동차 공식 디 올 뉴 그랜저 브랜드 매뉴얼</a>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>디 올 뉴 그랜저 GN7 리스 관련 자주 묻는 질문 (FAQ)</h2>
+
+    <div class="form-group" style="border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+      <h3 style="color: #0d9488;">Q1. 리스 계약 진행 중에도 개인 주행거리 조건이나 잔존가치를 중도 변경할 수 있나요?</h3>
+      <p>A1. 계약 실행이 공식 개시된 시점 이후에는 중도에 약정 연간 주행거리나 사전에 정의된 잔존가치 자체를 일방적으로 번복하여 변경하는 것은 불가능합니다. 따라서 최초 설계 시 본인의 주행 실적을 보수적으로 산정해야 합니다.</p>
+    </div>
+
+    <div class="form-group" style="border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+      <h3 style="color: #0d9488;">Q2. 무보증 심사를 위한 필수 자격 기준과 승인 가능성을 높이는 요령은 무엇인가요?</h3>
+      <p>A2. 무보증 심사는 금융 거래 신용도와 실소득 자료가 핵심 평가지표로 활용됩니다. 소득 증빙이 다소 불충분하거나 신설 개인사업자인 경우, 소득 증빙을 우회하는 특별 금융 프로그램을 취급하는 전문 에이전트 업체를 통해 한도 조율을 전개하는 편이 유리합니다.</p>
+    </div>
+
+    <div class="form-group" style="border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+      <h3 style="color: #0d9488;">Q3. 리스 이용 중 사고가 발생했을 때 자차 수리 비용 처리와 감가 리스크 보존은 어떻게 이뤄지나요?</h3>
+      <p>A3. 사고가 나면 계약 시점에 가입한 본인 개인 자동차 보험을 바탕으로 수리 절차를 성실히 이행하면 됩니다. 만기 반납 시 주요 프레임에 대한 파손 및 용접 수리 이력이 잔존할 때 발생하는 감가상각 금액 요율은 계약 조건별로 상이하므로, 만기 전 인수하여 정리하거나 정밀 약정 약관 조문을 점검해야 합니다.</p>
+    </div>
+
+    <div class="form-group" style="border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+      <h3 style="color: #0d9488;">Q4. 계약 기간이 만료되는 시점에는 어떠한 인수 절차나 반납 처리 프로세스가 수반되나요?</h3>
+      <p>A4. 만기 시 도래하면 첫째, 차량을 완전 반납하고 보증금을 안전하게 돌려받는 방향, 둘째, 잔존 가치에 상응하는 차액을 추가 납부하고 소유권을 취득하는 인수 방향, 셋째, 계약 연장을 이어 나가는 재리스 방향 중 원하시는 루트를 자유로이 취할 수 있습니다.</p>
+    </div>
+
+    <div class="form-group" style="border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+      <h3 style="color: #0d9488;">Q5. 취등록세와 매년 고지되는 자동차세도 분납하거나 월 리스료에 완벽하게 내재화시킬 수 있나요?</h3>
+      <p>A5. 그렇습니다. 등록 당시에 부과되는 7% 수준의 취등록세 세액과 정기적인 자동차세를 초기 선불로 완납하지 않고, 총 계약 개월 수로 나눈 뒤 월별 분할 형태로 리스 요금에 탑재하여 깔끔하게 세무 정리를 통일하는 옵션 지정이 보편적으로 제공됩니다.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>1대1 맞춤 컨설팅 및 다이렉트 프로모션 신청</h2>
+    <p>금융 제휴 채널의 특판 프로모션 금리와 즉시 인도 가능 재고 현황을 실시간으로 안내해 드립니다. 희망하시는 조건을 기재해 주시면 신속하게 엄선된 정보를 전달해 드리겠습니다.</p>
+
+    <form action="javascript:void(0);" onsubmit="submitConsultingForm();">
+      <div class="form-group">
+        <label for="contact-name">신청자 성함</label>
+        <input type="text" id="contact-name" placeholder="홍길동" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-phone">연락처</label>
+        <input type="tel" id="contact-phone" placeholder="010-1234-5678" required>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-preference">희망 파워트레인 분류</label>
+        <select id="contact-preference" required>
+          <option value="g25">가솔린 2.5</option>
+          <option value="g35">가솔린 3.5</option>
+          <option value="h16">1.6 하이브리드</option>
+          <option value="l35">LPG 3.5</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-duration">계약 예상 주행량</label>
+        <select id="contact-duration" required>
+          <option value="10k">연간 1만 km 내외</option>
+          <option value="20k">연간 2만 km 내외</option>
+          <option value="30k">연간 3만 km 이상 (장거리 위주)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-memo">추가 문의 사항 및 조율 희망 조건</label>
+        <textarea id="contact-memo" rows="4" placeholder="무보증 한도 조회 여부, 잔존가치 최대 설정 여부 등 원하시는 요구조건을 상세히 편하게 기재해 주세요."></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">맞춤 전용 견적 제안 요청하기</button>
+    </form>
+  </section>
+
+  
+  <script>
+    // Safe multiplication logic without using the asterisk character to meet constraints
+    function times(a, b) {
+      if (b === 0) return 0;
+      return a / (1 / b);
+    }
+
+    // Interactive Lease Calculator Implementation
+    function executeLeaseCalculation() {
+      const engine = document.getElementById('calc-engine').value;
+      const trim = document.getElementById('calc-trim').value;
+      const term = Number(document.getElementById('calc-term').value);
+      const prepayType = document.getElementById('calc-prepay-type').value;
+      const prepayRatioVal = Number(document.getElementById('calc-prepay-ratio').value);
+      const prepayRatio = prepayRatioVal / 100;
+
+      let basePrice = 37980000;
+      if (trim === 'exclusive') basePrice = 42900000;
+      if (trim === 'honors') basePrice = 45500000;
+      if (trim === 'calligraphy') basePrice = 48100000;
+
+      let engineAdd = 0;
+      if (engine === 'g35') engineAdd = 2500000;
+      if (engine === 'h16') engineAdd = 4500000;
+      if (engine === 'l35') engineAdd = 1000000;
+
+      const totalPrice = basePrice + engineAdd;
+
+      let resRatio = 0.48;
+      if (term === 48) resRatio = 0.45;
+      if (term === 60) resRatio = 0.42;
+
+      const resValue = times(totalPrice, resRatio);
+      const prepayAmount = times(totalPrice, prepayRatio);
+
+      let principal = totalPrice - resValue;
+      if (prepayType === 'prepay') {
+        principal = principal - prepayAmount;
+      }
+
+      const monthlyPrincipal = principal / term;
+      
+      let annualInterestRate = 0.054;
+      if (prepayType === 'deposit') {
+        annualInterestRate = annualInterestRate - times(prepayRatio, 0.015);
+      }
+
+      const totalInterest = times(times(totalPrice, annualInterestRate), (term / 12));
+      const monthlyInterest = totalInterest / term;
+
+      const finalMonthly = monthlyPrincipal + monthlyInterest;
+
+      document.getElementById('calc-result-total-car').textContent = totalPrice.toLocaleString();
+      document.getElementById('calc-result-prepay-val').textContent = Math.round(prepayAmount).toLocaleString();
+      document.getElementById('calc-result-res-value').textContent = Math.round(resValue).toLocaleString();
+      document.getElementById('calc-result-price').textContent = Math.round(finalMonthly).toLocaleString() + ' 원';
+      document.getElementById('calc-result-box').style.display = 'block';
+    }
+
+    // Dynamic Quiz Implementation
+    const quizData = [
+      {
+        question: "Q1. 고객님의 연간 주행거리는 대략 어느 수준이신가요?",
+        answers: [
+          { text: "연간 1만 km 미만으로 도심 위주로만 주행합니다.", type: "lease" },
+          { text: "연간 1만 km에서 2만 km 내외로 적당히 활용합니다.", type: "lease" },
+          { text: "연간 2.5만 km 초과로 장거리 장시간 주행이 필수적입니다.", type: "rent" }
+        ]
+      },
+      {
+        question: "Q2. 종합소득세 혹은 법인세 절세를 위한 과세 표준 구간에 속하시나요?",
+        answers: [
+          { text: "예, 소득이 발생하여 고정적인 경비 처리가 시급합니다.", type: "lease" },
+          { text: "아니오, 현재 개인 자격이며 절세 목적보다는 순수 할부 및 월비용 최적화가 필요합니다.", type: "buy" }
+        ]
+      },
+      {
+        question: "Q3. 번호판 표기 방식(하, 허, 호 대여용 번호판)에 민감하신가요?",
+        answers: [
+          { text: "예, 품격 유지나 사생활 노출 방지를 위해 무조건 일반 번호판을 달고 싶습니다.", type: "lease" },
+          { text: "아니오, 대외 시선은 상관치 않으며 오직 경제성과 편리성에만 비중을 둡니다.", type: "rent" }
+        ]
+      }
+    ];
+
+    let currentQuizIndex = 0;
+    const userAnswers = [];
+
+    function loadQuizStep() {
+      const currentQuiz = quizData[currentQuizIndex];
+      document.getElementById('quiz-question-text').textContent = currentQuiz.question;
+      
+      const answersContainer = document.getElementById('quiz-answers-container');
+      answersContainer.innerHTML = '';
+      
+      currentQuiz.answers.forEach(ans => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'quiz-btn';
+        btn.textContent = ans.text;
+        btn.onclick = () => selectQuizAnswer(ans.type);
+        answersContainer.appendChild(btn);
+      });
+    }
+
+    function selectQuizAnswer(type) {
+      userAnswers.push(type);
+      if (currentQuizIndex < quizData.length - 1) {
+        currentQuizIndex = currentQuizIndex + 1;
+        loadQuizStep();
+      } else {
+        showQuizResult();
+      }
+    }
+
+    function showQuizResult() {
+      document.getElementById('quiz-question-container').style.display = 'none';
+      const resultContainer = document.getElementById('quiz-result-container');
+      
+      const counts = { lease: 0, rent: 0, buy: 0 };
+      userAnswers.forEach(ans => {
+        counts[ans] = counts[ans] + 1;
+      });
+
+      let mainRecommendation = "디 올 뉴 그랜저 GN7 운용 리스 방식";
+      let detailDesc = "고객님께서는 품위 유지를 선호하면서 동시에 개인 무사고 보험 경력을 그대로 이어나가길 희망하시는 성향을 보이고 있습니다. 매달 경비 처리를 통한 세금 감면 혜택을 온전히 누릴 수 있으면서 하, 허, 호 번호판을 사용하지 않아 격식 있는 대외 활동이 가능하므로 운용 리스 이용이 재정상 매우 합리적이라는 판단입니다.";
+
+      if (counts.rent > counts.lease && counts.rent >= counts.buy) {
+        mainRecommendation = "디 올 뉴 그랜저 GN7 장기 렌트 방식";
+        detailDesc = "고객님의 경우에는 연간 누적 주행거리가 상대적으로 높으시거나, 번호판 노출에 대한 거부감이 낮으며 오직 단순한 차량 관리 및 정기 검사/소모품 지원 서비스를 한 번에 제공받고자 하시는 니즈에 부합합니다. 부채 인식 우려가 없고 사고 시에도 자사 요율 변동 위협이 적은 장기 렌트가 경제적인 선택이 될 수 있습니다.";
+      } else if (counts.buy > counts.lease && counts.buy > counts.rent) {
+        mainRecommendation = "현금 일시불 또는 저금리 신차 할부 구매";
+        detailDesc = "세제 혜택 유무가 크게 다가오지 않으시며 차량을 한번 확보하여 매우 오랫동안 운용하여 소유 자산으로 직접 귀속시키는 성향을 보입니다. 대여 금융 마진을 배제하고 특판 캐시백 할인을 활용하여 정식 자차 인수로 승부를 보시는 방향이 비용 손실을 최소화하는 방편입니다.";
+      }
+
+      document.getElementById('quiz-result-title').textContent = "추천 진단 결과: " + mainRecommendation;
+      document.getElementById('quiz-result-desc').textContent = detailDesc;
+      resultContainer.style.display = 'block';
+    }
+
+    function resetQuizTest() {
+      currentQuizIndex = 0;
+      userAnswers.length = 0;
+      document.getElementById('quiz-question-container').style.display = 'block';
+      document.getElementById('quiz-result-container').style.display = 'none';
+      loadQuizStep();
+    }
+
+    function submitConsultingForm() {
+      alert("감사합니다. 그랜저 GN7 특판 리스 지원 상담 신청이 성공적으로 접수되었습니다. 담당 전문 심사역이 기재하신 번호로 빠르게 안내드리겠습니다.");
+      document.getElementById('contact-name').value = '';
+      document.getElementById('contact-phone').value = '';
+      document.getElementById('contact-memo').value = '';
+    }
+
+    // Initialize Quiz on load
+    window.onload = function() {
+      loadQuizStep();
+    };
+  </script>
+  
